@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
-  "name": "Developer Portfolio",
-  "homepage": "https://localhost:5173",
+  "name": "dev-port-ui",
+  "homepage": "https://devportui.netlify.app/r/",
   "items": [
     {
         "name": "Button",
@@ -10,7 +10,7 @@
             {
                 "path": "src/components/ui/button.tsx",
                 "type": "registry:component",
-                "target": "components/developerPortfolio/button.tsx"
+                "target": "components/dev-port-ui/button.tsx"
             }
         ]
     }
