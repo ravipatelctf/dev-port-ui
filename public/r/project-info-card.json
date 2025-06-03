@@ -1,0 +1,14 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "project-info-card",
+  "type": "registry:component",
+  "description": "A card component that show details of a project in brief.",
+  "files": [
+    {
+      "path": "src/components/ui/project-info-card.tsx",
+      "content": "import Image from \"next/image\";\n\ntype ProjectInfoCardProps = {\n    imgSrc: string,\n    imgAlt: string,\n    label: string,\n    description: string,\n    summaryDescription: string,\n    projectDemoLink: string,\n    projectCodeLink: string,\n}\n\nexport function ProjectInfoCard({imgSrc, imgAlt, label, description, summaryDescription, projectDemoLink, projectCodeLink}: ProjectInfoCardProps) {\n    return(\n        <article className=\"border p-1\">\n            <img src={imgSrc} alt={imgAlt} />\n            <h3 className=\"text-2xl font-bold\">{label}</h3>\n            <p>{description}</p>\n            <details>\n                <summary>Apps Included</summary>\n                <p>{summaryDescription}</p>\n            </details>\n            <a href={projectDemoLink} className=\"hover:underline hover:text-blue-600\">🖥️ Demo</a>\n            <a href={projectCodeLink} className=\"hover:underline hover:text-blue-600\">⚙️ Code</a>\n        </article>\n    );\n}",
+      "type": "registry:component",
+      "target": "components/devportui/project-info-card.tsx"
+    }
+  ]
+}

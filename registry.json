@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
   "name": "devportui",
-  "homepage": "http://localhost:3000/",
+  "homepage": "http://devportui.netlify.app",
   "items": [
     {
       "name": "button",
@@ -12,6 +12,18 @@
           "path": "src/components/ui/button.tsx",
           "type": "registry:component",
           "target": "components/devportui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "project-info-card",
+      "type": "registry:component",
+      "description": "A card component that show details of a project in brief.",
+      "files": [
+        {
+          "path": "src/components/ui/project-info-card.tsx",
+          "type": "registry:component",
+          "target": "components/devportui/project-info-card.tsx"
         }
       ]
     }
