@@ -13,6 +13,17 @@
                 "target": "components/dev-port-ui/button.tsx"
             }
         ]
+    },
+    {
+        "name": "ProjectDemoCard",
+        "type": "registry:component",
+        "files": [
+            {
+                "path": "src/components/ui/ProjectDemoCard.tsx",
+                "type": "registry:component",
+                "target": "components/dev-port-ui/ProjectDemoCard.tsx"
+            }
+        ]
     }
   ]
 }

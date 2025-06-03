@@ -1,6 +1,6 @@
 import "../index.css";
 import React from "react";
-import { ProjectDemoCard } from "./ProjectDemoCard";
+import { ProjectDemoCard } from "./ui/ProjectDemoCard";
 
 export function ProjectsSection() {
     const summaryHeading = "Apps Included";

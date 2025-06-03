@@ -1,5 +1,6 @@
 import "../index.css";
 import React from "react";
+import { Button } from "@/components/dev-port-ui/button";
 
 export function ContactSection() {
     return(
@@ -21,6 +22,7 @@ export function ContactSection() {
                     </p>
                 </article>
             </div>
+            <Button label="test button" color="bg-green-600"/>
         </section>
     );
 }
