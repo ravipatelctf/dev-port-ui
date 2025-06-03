@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "Developer Portfolio",
+  "homepage": "https://localhost:5173",
+  "items": [
+    {
+        "name": "Button",
+        "type": "registry:component",
+        "files": [
+            {
+                "path": "src/components/ui/button.tsx",
+                "type": "registry:component",
+                "target": "components/developerPortfolio/button.tsx"
+            }
+        ]
+    }
+  ]
+}
