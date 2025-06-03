@@ -1,29 +1,19 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
-  "name": "dev-port-ui",
-  "homepage": "https://devportui.netlify.app/r/",
+  "name": "devportui",
+  "homepage": "http://localhost:3000/",
   "items": [
     {
-        "name": "button",
-        "type": "registry:component",
-        "files": [
-            {
-                "path": "src/components/ui/button.tsx",
-                "type": "registry:component",
-                "target": "components/dev-port-ui/button.tsx"
-            }
-        ]
-    },
-    {
-        "name": "project-demo-card",
-        "type": "registry:component",
-        "files": [
-            {
-                "path": "src/components/ui/project-demo-card.tsx",
-                "type": "registry:component",
-                "target": "components/dev-port-ui/project-demo-card.tsx"
-            }
-        ]
+      "name": "button",
+      "type": "registry:component",
+      "description": "A simple button component.",
+      "files": [
+        {
+          "path": "src/components/ui/button.tsx",
+          "type": "registry:component",
+          "target": "components/devportui/button.tsx"
+        }
+      ]
     }
   ]
 }
