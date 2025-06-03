@@ -4,7 +4,7 @@
   "homepage": "https://devportui.netlify.app/r/",
   "items": [
     {
-        "name": "Button",
+        "name": "button",
         "type": "registry:component",
         "files": [
             {
@@ -15,13 +15,13 @@
         ]
     },
     {
-        "name": "ProjectDemoCard",
+        "name": "project-demo-card",
         "type": "registry:component",
         "files": [
             {
-                "path": "src/components/ui/ProjectDemoCard.tsx",
+                "path": "src/components/ui/project-demo-card.tsx",
                 "type": "registry:component",
-                "target": "components/dev-port-ui/ProjectDemoCard.tsx"
+                "target": "components/dev-port-ui/project-demo-card.tsx"
             }
         ]
     }

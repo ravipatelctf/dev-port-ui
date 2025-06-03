@@ -1,11 +1,11 @@
-import "./index.css";
+import '@/styles.css';
 import React from "react";
-import { ContactSection } from "./components/ContactSection";
-import { FooterSection } from "./components/FooterSection";
-import { HeroSection } from "./components/HeroSection";
-import { NavBar } from "./components/NavBar";
-import { ProjectsSection } from "./components/ProjectsSection";
-import { SkillsSection } from "./components/SkillsSection";
+import { ContactSection } from "./components/ui/contact-section";
+import { FooterSection } from "./components/ui/footer-section";
+import { HeroSection } from "./components/ui/hero-section";
+import { NavBar } from "./components/ui/nav-bar";
+import { ProjectsSection } from "./components/ui/projects-section";
+import { SkillsSection } from "./components/ui/skills-section";
 
 export default function App() {
   return(

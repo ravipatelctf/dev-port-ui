@@ -1,8 +1,9 @@
-import "../index.css";
+import '@/styles.css';
 import React from "react";
-import { Button } from "@/components/dev-port-ui/button";
 
 export function ContactSection() {
+    const smartMarketerImg = "https://picsum.photos/id/180/600/400";
+    const summaryHeading = "Apps Included";
     return(
         <section className="border p-2 mt-10">
             <h2 className="text-3xl font-bold">Connect</h2>
@@ -22,7 +23,6 @@ export function ContactSection() {
                     </p>
                 </article>
             </div>
-            <Button label="test button" color="bg-green-600"/>
         </section>
     );
 }

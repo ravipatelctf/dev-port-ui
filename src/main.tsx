@@ -2,9 +2,9 @@ import React from 'react'
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from "react-router";
-import './index.css'
+import '@/styles.css';
 import App from './App.js'
-import { ContactSection } from './components/ContactSection';
+import { ContactSection } from './components/ui/contact-section';
 
 
 const container = document.getElementById("root");
