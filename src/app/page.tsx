@@ -1,8 +1,13 @@
+import { Nav } from "@/components/ui/nav";
 import { ProjectInfoCard } from "@/components/ui/project-info-card";
 
 export default function Page() {
     return(
         <>
+            <header className="my-4 mx-4 md:mx-40 border p-2">
+                  <Nav />
+            </header>
+            <main className="my-4 mx-4 md:mx-40 p-2 border flex flex-col">
             <section className="">
                 <h2 className="text-3xl font-bold">My Projects</h2>
                 <p className="text-md">What I've been working on lately.</p>
@@ -102,6 +107,10 @@ export default function Page() {
                         </hgroup>
                     </article>
                 </section>
+                </main>
+                <footer className="my-4 mx-4 md:mx-40 p-2 border">
+                    <p className="text-sm flex place-content-center">© 2025 ravipatelctf | Built with Next.js • React • TailwindCSS • TypeScript | frontend ui component library for building developer portfolios</p>
+                </footer>
         </>
     );
 }
