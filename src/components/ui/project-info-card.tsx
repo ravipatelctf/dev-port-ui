@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 
 type ProjectInfoCardProps = {
     imgSrc: string,
